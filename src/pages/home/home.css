@@ -1,0 +1,458 @@
+/* html{
+    background-color: #0F0F0F;
+} */
+#hero{
+    padding-top: 17% !important;
+}
+#hero{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7) 50%, rgba(0,0,0,0.7) 50%), url('tbg.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#hero h3{
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#hero{
+    padding: 8% 0;
+    /* padding-top: 20%; */
+}
+#hero h2{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#hero h2 span{
+    color: #C3965B;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 5.12px;
+    text-transform: uppercase;
+}
+#hero p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+}
+.hrbtn{
+    width: 216px;
+    height: 60px;
+}
+.lay{
+    border: 1px solid #C3965B;
+    background: linear-gradient(91deg, rgba(195, 150, 91, 0.90) 0%, rgba(195, 150, 91, 0.70) 100.46%);
+    box-shadow: 0px 20px 40px 0px rgba(114, 100, 100, 0.30);
+    backdrop-filter: blur(10px);
+    /* margin-bottom: -17%; */
+}
+.lay h4{
+    color: #0F0F0F;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.lay p{
+    color: #0F0F0F !important;
+    font-size: 16px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: normal !important;
+    letter-spacing: 4px !important;
+    text-transform: capitalize;
+}
+#about{
+    background-color: #222222;
+    padding-top: 10%;
+}
+#about h3{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.84px;
+    text-transform: uppercase;
+}
+#about h4{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-transform: uppercase;
+}
+#about p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 1.28px;
+    /* text-transform: capitalize; */
+}
+.title{
+    position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 70%;
+    height: 5px;
+    background-color: #C3965B;
+}
+#services{
+    background-color: #000;
+    padding: 5% 0;
+}
+#services h3, #skills h3, #footer h3{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    text-transform: uppercase;
+}
+#services p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    letter-spacing: 1.28px;
+    /* text-transform: capitalize; */
+}
+.social{
+    cursor: pointer;
+}
+#skills{
+    background-color: #000;
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+.skillcon{
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+    display: grid;
+    place-items: center;
+}
+.pin-spacer{
+    background-color: #000;
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+    background: linear-gradient(177deg, #794B33 54.07%, rgba(119, 71, 46, 0.19) 104.54%);
+    stroke-width: 1px;
+    stroke: #C3965B;
+    filter: drop-shadow(2px 0px 3px rgba(0, 0, 0, 0.25));
+}
+.box{
+    background: #C3965B;
+    height: 180px !important;
+}
+.box p, .box1 p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal !important;
+}
+.box1{
+    background: #5D3E15;
+    height: 180px !important;
+}
+#portfolio{
+    padding-top: 5%;
+    margin-bottom: -20%;
+    background-color: #000;
+}
+#portfolio h3{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    text-transform: uppercase;
+}
+.text-bg-warning{
+    background-color: #C3965B !important;
+}
+#footer{
+    padding-top: 5%;
+    background-color: #222;
+}
+.card1{
+    background: #242424;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.card1 p{
+    color: #C3965B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.copyright{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+#talk{
+    background-color: #222;
+    padding-top: 10%;
+}
+#form{
+    background-color: #000;
+    color: #fff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#form h3{
+    font-size: 38px;
+}
+#form p{
+    font-size: 18px;
+}
+#form label{
+    font-size: 20px;
+}
+#form input{
+    outline: none;
+}
+#project{
+    height: 80px;
+    resize: none;
+    outline: none;
+}
+
+.primary{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.primary1{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.view{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+.view:hover{
+    opacity: 100%;
+}
+.view a{
+    text-decoration: none;
+    color: #fff;
+} 
+#portfolio p{
+    margin-bottom: 16%;
+}
+.text-bg-warning{
+    background-color: #C3965B !important;
+}
+#footer{
+    padding-top: 5%;
+    background-color: #222;
+}
+.card1{
+    background: #242424;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.card1 p{
+    color: #C3965B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.copyright{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: lowercase;
+}
+#talk{
+    background-color: #222;
+    padding-top: 10%;
+}
+
+#form h3{
+    font-size: 38px;
+}
+#form p{
+    font-size: 18px;
+}
+#form label{
+    font-size: 20px;
+}
+#project{
+    height: 80px;
+    resize: none;
+    outline: none;
+}
+
+.primary{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.primary1{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.view{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: grid;
+    place-content: center;
+    opacity: 0;
+    transition: 0.5s ease-in;
+}
+.view:hover{
+    opacity: 100%;
+}
+.view a{
+    text-decoration: none;
+    color: #fff;
+} 
+#contact{
+    padding-top: 10%;
+}
+#portfolio p{
+    margin-bottom: 16%;
+}
+.pin-spacer{
+    background-color: #000;
+}
+/* #about .pin-spacer{
+    background-color: #222222;
+} */
+.subtn{
+    width: 25%;
+}
+
+@media(max-width: 767px){
+    #hero{
+        padding-top: 40% !important;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .nav-link{
+        text-align: center !important;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+    #about h4{
+        font-size: 20px;
+    }
+    #form{
+        margin-top: -30%;
+    }
+    .loadertxt{
+        margin-top:0;
+        font-size: 70px;
+    }
+    .loader{
+        flex-direction: column;
+    }
+    .loadertxt1{
+        margin-top: 0;
+        font-size: 70px;
+    }
+    .hrbtn{
+        width: 150px;
+    }
+    .subtn{
+        width: 50%;
+    }
+    .navbar-collapse{
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 3px solid #fff;
+    }
+    /* ------------- Typography ----------- */
+    .navbar-brand{
+        font-size: 15px;
+    }
+    #hero h2 span{
+        font-size: 32px;
+    }
+    #hero p{
+        font-size: 16px;
+    }
+    .lay h4{
+        font-size: 24px;
+    }
+    .lay p{
+        font-size: 10px !important;
+    }
+    .segrid p{
+        font-size: 10px !important;
+    }
+    #portfolio p{
+        margin-bottom: 50%;
+    }
+    #form h3{
+        font-size: 20px !important;
+    }
+    #form p{
+        font-size: 16px;
+    }
+    #form label{
+        font-size: 18px;
+    }
+    #form{
+        padding-bottom: 10%;
+    }
+
+}

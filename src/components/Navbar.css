@@ -1,0 +1,16 @@
+.navcover{
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+.navbar-brand{
+    font-size: 25px;
+}
+.logo{
+    color: #C3965B;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: uppercase;
+}
