@@ -14,17 +14,17 @@ function home() {
   useEffect(() => {
     const texts = document.querySelectorAll('.reveal-type');
     texts.forEach(text => {
-       const splitText = new SplitType(text, { types: 'chars' });
-       const chars = splitText.chars;
+       const splitText = new SplitType(text, { types: 'words' }); // Changed from 'chars' to 'words'
+       const words = splitText.words; // Access the words instead of chars
    
        gsap.fromTo(
-         chars,
+         words,
          { 
-           opacity: 0.2
+           autoAlpha: 0 // Use autoAlpha for better performance
          },
          {
-           opacity: 1,
-           stagger: 0.3, // Increased stagger for performance
+           autoAlpha: 1,
+           stagger: 0.3, // Adjusted stagger for performance
            duration: 2,
            ease: 'power1.out', // Simplified easing for performance
            scrollTrigger: {
@@ -38,6 +38,7 @@ function home() {
        );
     });
    }, []);
+   
    
 
   const skillsRef = useRef(null);
