@@ -14,30 +14,31 @@ function home() {
   useEffect(() => {
     const texts = document.querySelectorAll('.reveal-type');
     texts.forEach(text => {
-      const splitText = new SplitType(text, { types: 'chars' });
-      const chars = splitText.chars;
-
-      gsap.fromTo(
-        chars,
-        { 
-          opacity: 0.2
-        },
-        {
-          opacity: 1,
-          stagger: 0.2,
-          duration: 2,
-          ease: 'power4.out',
-          scrollTrigger: {
-            trigger: text,
-            scrub: true,
-            start: 'top 90%', // Adjust the start position as needed
-            end: 'bottom 60%',
-            toggleActions: 'play none none reverse'
-          }
-        }
-      );
+       const splitText = new SplitType(text, { types: 'chars' });
+       const chars = splitText.chars;
+   
+       gsap.fromTo(
+         chars,
+         { 
+           opacity: 0.2
+         },
+         {
+           opacity: 1,
+           stagger: 0.3, // Increased stagger for performance
+           duration: 2,
+           ease: 'power1.out', // Simplified easing for performance
+           scrollTrigger: {
+             trigger: text,
+             scrub: true,
+             start: 'top 90%', // Adjust the start position as needed
+             end: 'bottom 60%',
+             toggleActions: 'play none none reverse'
+           }
+         }
+       );
     });
-  }, []);
+   }, []);
+   
 
   const skillsRef = useRef(null);
 
