@@ -294,71 +294,71 @@ function home() {
 
 
                 <section id="portfolio" className='position-relative z-3' ref={projectRef}>
-                  <div class="container">
-                    <h3 class="text-center"><span class="title text-white">PORTFOLIO</span></h3>
+                  <div className="container">
+                    <h3 className="text-center"><span className="title text-white">PORTFOLIO</span></h3>
                 
-                    <p class="text-center text-white pt-3 pb-5">Take a look at my collection of projects</p>
-                    <div class="row">
-                      <div class="col-lg-5">
-                        <div class="row">
-                          <div class="col-lg-12 mb-auto project">
-                            <div class="primary">
-                              <img src="project (7).png"  alt="" class="w-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://devtfitness.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                    <p className="text-center text-white pt-3 pb-5">Take a look at my collection of projects</p>
+                    <div className="row">
+                      <div className="col-lg-5">
+                        <div className="row">
+                          <div className="col-lg-12 mb-auto project">
+                            <div className="primary">
+                              <img src="project (7).png"  alt="" className="w-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://devtfitness.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                 
                             </div>
                           </div>
-                          <div class="col-lg-12 my-4 project">
-                            <div class="yelbox w-75 rounded-3 mx-auto" style={{background: '#C3965B', height: '29.701px'}}>
+                          <div className="col-lg-12 my-4 project">
+                            <div className="yelbox w-75 rounded-3 mx-auto" style={{background: '#C3965B', height: '29.701px'}}>
                             </div>
                           </div>
-                          <div class="col-lg-12 project">
-                            <div class="primary">
-                              <img src="project (2).png"  alt="" class="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://fe-mal.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                          <div className="col-lg-12 project">
+                            <div className="primary">
+                              <img src="project (2).png"  alt="" className="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://fe-mal.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-7">
-                        <div class="row">
-                          <div class="col-lg-12 mt-3 mt-lg-0 project">
-                            <div class="primary">
-                              <img src="project (3).png"  alt="" class="w-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://tessgetlinked.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                      <div className="col-lg-7">
+                        <div className="row">
+                          <div className="col-lg-12 mt-3 mt-lg-0 project">
+                            <div className="primary">
+                              <img src="project (3).png"  alt="" className="w-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://tessgetlinked.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
-                          <div class="col-lg-12 mt-3 project" style={{height:' 190px'}}>
-                            <div class="primary h-100">
-                              <img src="project (6).png"  alt="" class="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://tsfinance.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                          <div className="col-lg-12 mt-3 project" style={{height:' 190px'}}>
+                            <div className="primary h-100">
+                              <img src="project (6).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://tsfinance.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-12 mt-3">
-                        <div class="row">
-                          <div class="col-lg-7 project">
-                            <div class="primary">
-                              <img src="project (4).png"  alt="" class="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://tstravels.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light rounded-3 border-3">View Project</button></a>
+                      <div className="col-lg-12 mt-3">
+                        <div className="row">
+                          <div className="col-lg-7 project">
+                            <div className="primary">
+                              <img src="project (4).png"  alt="" className="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://tstravels.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
-                          <div class="col-lg-5 mt-3 mt-lg-0 project">
-                            <div class="primary h-100">
-                              <img src="project (1).png"  alt="" class="w-100 h-100 rounded-3 object-fit-contain" style={{border: '0.928px solid #C3965B'}} />
-                              <div class="view rounded-3">
-                                <a href="https://devtsocialbook.netlify.app" target="_blank" rel="noopener noreferrer"><button class="btn btn-outline-light rounded-3 border-3">View Project</button></a>
+                          <div className="col-lg-5 mt-3 mt-lg-0 project">
+                            <div className="primary h-100">
+                              <img src="project (1).png"  alt="" className="w-100 h-100 rounded-3 object-fit-contain" style={{border: '0.928px solid #C3965B'}} />
+                              <div className="view rounded-3">
+                                <a href="https://devtsocialbook.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
@@ -370,75 +370,75 @@ function home() {
 
                 <section id="contact" className='position-relative z-3'>
     <div id="form">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
-            <div class="formtxt">
-              <h3 class="protxt text-uppercase">Got a project? <br/>Let's talk.</h3>
+      <div className="container">
+        <div className="row justify-content-between">
+          <div className="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
+            <div className="formtxt">
+              <h3 className="protxt text-uppercase">Got a project? <br/>Let's talk.</h3>
     
-              <p class="mt-4">Ready to make your project a success? Whether it's a website, strategy refinement, or a tech challenge – let's collaborate. Ready to start?</p>
+              <p className="mt-4">Ready to make your project a success? Whether it's a website, strategy refinement, or a tech challenge – let's collaborate. Ready to start?</p>
     
             </div>
           </div>
-          <div class="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
-            <h3 class="text-uppercase">Estimate your project? <br/> Let me know here.</h3>
+          <div className="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
+            <h3 className="text-uppercase">Estimate your project? <br/> Let me know here.</h3>
     
-            <form action="https://api.web3forms.com/submit" method="POST" class="d-flex flex-column mt-5">
+            <form action="https://api.web3forms.com/submit" method="POST" className="d-flex flex-column mt-5">
               <input type="hidden" name="access_key" value="82562d9e-44d6-4b92-94bc-911ae587ab49" />
-              <label for="name">What's your name?</label>
-            <input type="text" name="name" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
+              <label htmlFor="name">What's your name?</label>
+            <input type="text" name="name" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
     
-              <label for="email">What's your Email Address?</label>
-            <input type="email" name="email" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
+              <label htmlFor="email">What's your Email Address?</label>
+            <input type="email" name="email" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
     
-              <label for="project">Tell me about your project</label>
-              <textarea name="project" id="project" class="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
+              <label htmlFor="project">Tell me about your project</label>
+              <textarea name="project" id="project" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
     
-              <button class="btn btn-outline-light rounded-3 subtn p-3 mt-3 border-3 hrtxt">Submit</button>
+              <button className="btn btn-outline-light rounded-3 subtn p-3 mt-3 border-3 hrtxt">Submit</button>
             </form>
           </div>
         </div>
       </div>
     </div>
     <div id="footer">
-      <div class="container">
-        <h3 class="text-center"><span class="title text-center">Get in touch</span></h3>
+      <div className="container">
+        <h3 className="text-center"><span className="title text-center">Get in touch</span></h3>
     
-        <div class="row mt-5">
-          <div class="col-lg-4">
-            <div class="card1 px-lg-5 px-3 py-3">
-              <p><span><i class="bi bi-envelope-fill text-white fs-4 me-2"></i></span> teslimliasu49@gmail.com</p>
+        <div className="row mt-5">
+          <div className="col-lg-4">
+            <div className="card1 px-lg-5 px-3 py-3">
+              <p><span><i className="bi bi-envelope-fill text-white fs-4 me-2"></i></span> teslimliasu49@gmail.com</p>
             </div>
           </div>
-          <div class="col-lg-4 my-3 my-lg-0">
-            <div class="card1 px-lg-5 px-3 py-3">
-              <p><span><i class="bi bi-telephone-fill text-white fs-4 me-2"></i></span>+2347033275477</p>
+          <div className="col-lg-4 my-3 my-lg-0">
+            <div className="card1 px-lg-5 px-3 py-3">
+              <p><span><i className="bi bi-telephone-fill text-white fs-4 me-2"></i></span>+2347033275477</p>
             </div>
           </div>
-          <div class="col-lg-4">
-            <div class="card1 px-lg-5 px-3 py-3">
-              <p><span><i class="bi bi-twitter-x text-white fs-4 me-2"></i></span> Tesssss718</p>
+          <div className="col-lg-4">
+            <div className="card1 px-lg-5 px-3 py-3">
+              <p><span><i className="bi bi-twitter-x text-white fs-4 me-2"></i></span> Tesssss718</p>
             </div>
           </div>
         </div>
-        <div class="row mt-4 justify-content-center">
-          <div class="col-lg-4">
-            <div class="card1 px-lg-5 px-3 py-3">
-              <p><span><i class="bi bi-github text-white fs-4 me-2"></i></span> Tess718</p>
+        <div className="row mt-4 justify-content-center">
+          <div className="col-lg-4">
+            <div className="card1 px-lg-5 px-3 py-3">
+              <p><span><i className="bi bi-github text-white fs-4 me-2"></i></span> Tess718</p>
             </div>
           </div>
-          <div class="col-lg-4 mt-3 mt-lg-0">
-            <div class="card1 px-lg-5 px-3 py-3">
-              <p><span><i class="bi bi-linkedin text-white fs-4 me-2"></i></span> teslimliasu</p>
+          <div className="col-lg-4 mt-3 mt-lg-0">
+            <div className="card1 px-lg-5 px-3 py-3">
+              <p><span><i className="bi bi-linkedin text-white fs-4 me-2"></i></span> teslimliasu</p>
             </div>
           </div>
         </div>
     
       </div>
-      <hr style={{border: '1px solid #C3965B; opacity: 100%'}} class="mt-5" />
-      <div class="d-flex">
-        <div class="container">
-          <p class="copyright py-3 text-center">© Copyright 2023 - Built by Dev Tess ❤</p>
+      <hr style={{border: '1px solid #C3965B; opacity: 100%'}} className="mt-5" />
+      <div className="d-flex">
+        <div className="container">
+          <p className="copyright py-3 text-center">© Copyright 2023 - Built by Dev Tess ❤</p>
     
         </div>
       </div>
