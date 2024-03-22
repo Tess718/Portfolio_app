@@ -41,25 +41,25 @@ function home() {
    
    
 
-  const skillsRef = useRef(null);
+//   const skillsRef = useRef(null);
 
- useEffect(() => {
-    const skills = gsap.utils.toArray(".anime");
+//  useEffect(() => {
+//     const skills = gsap.utils.toArray(".anime");
 
-    gsap.to(skills, {
-       scrollTrigger: {
-    trigger: skillsRef.current,
-    start: "top top", 
-    end: "bottom bottom",
-    duration: 5,
-    scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    pin: true, // Pin the container while scrolling
-    direction: "horizontal", // Specify the scroll direction
-  },
-  x:-250 * (skills.length - 1),
-  ease: "power4.out",
-});
- }, []);
+//     gsap.to(skills, {
+//        scrollTrigger: {
+//     trigger: skillsRef.current,
+//     start: "top top", 
+//     end: "bottom bottom",
+//     duration: 5,
+//     scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+//     pin: true, // Pin the container while scrolling
+//     direction: "horizontal", // Specify the scroll direction
+//   },
+//   x:-250 * (skills.length - 1),
+//   ease: "power4.out",
+// });
+//  }, []);
 
  const projectRef = useRef(null);
 
@@ -80,7 +80,7 @@ function home() {
  }, []);
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         <div className="cover bg-black position-relative">  
             <div className="navcover">
                 <Navbar/>
@@ -158,9 +158,43 @@ function home() {
           </div>
       </div>
                 </section>
+                <section id='tech'>
+                    <div className="overflow-x-hidden fit">
+                      <div className="container">
+                      <h3 className='text-white text-uppercase pb-4'><span className='title'>Technologies i use</span></h3>
+                      </div>
+                      <div className="help overflow-x-hidden">
+                        <div className="text-wrapper d-flex justify-content-center gap-3 text-center py-4">
+                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-css3-alt me-2"></i>CSS</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
+                          <h1 className='mb-0'>GSAP</h1>
+                          <h1 className='mb-0'>Swiper.js</h1>
+                          <h1 className='mb-0'>AOS</h1>
+                        </div>
+                      </div>
+                      <div className="help-2 overflow-x-hidden">
+                        <div className="text-wrapper2 d-flex justify-content-center gap-3 text-center py-4">
+                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-css3-alt me-2"></i>CSS</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
+                          <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
+                          <h1 className='mb-0'>GSAP</h1>
+                          <h1 className='mb-0'>Swiper.js</h1>
+                          <h1 className='mb-0'>AOS</h1>
+                        </div>
+                      </div>
+
+                      </div>
+                </section>
 
 
-                <section id="skills" className="overflow-x-hidden position-relative z-3" ref={skillsRef}>
+                {/* <section id="skills" className="overflow-x-hidden position-relative z-3" ref={skillsRef}>
                   <div className="container overflow-x-hidden">
                     <div className="text-end mb-5"><h3><span className="title">MY SKILLS</span></h3></div>
                     <div className="wrapper">
@@ -222,7 +256,7 @@ function home() {
                       </div>
                     </div>
                   </div>
-                </section>
+                </section> */}
 
 
                 <section id="services" className='position-relative z-3'>
