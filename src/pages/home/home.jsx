@@ -20,17 +20,17 @@ function home() {
        gsap.fromTo(
          words,
          { 
-           autoAlpha: 0 // Use autoAlpha for better performance
+           opacity: 0.05
          },
          {
-           autoAlpha: 1,
-           stagger: 0.3, // Adjusted stagger for performance
+           opacity: 1,
+           stagger: 0.3,
            duration: 2,
-           ease: 'power1.out', // Simplified easing for performance
+           ease: 'power1.out', 
            scrollTrigger: {
              trigger: text,
              scrub: true,
-             start: 'top 90%', // Adjust the start position as needed
+             start: 'top 90%', 
              end: 'bottom 60%',
              toggleActions: 'play none none reverse'
            }
