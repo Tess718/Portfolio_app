@@ -31,7 +31,7 @@ function home() {
              trigger: text,
              scrub: true,
              start: 'top 90%', 
-             end: 'bottom bottom',
+             end: 'bottom 80%',
              toggleActions: 'play none none reverse'
            }
          }
@@ -165,28 +165,28 @@ function home() {
                       </div>
                       <div className="help overflow-x-hidden">
                         <div className="text-wrapper d-flex justify-content-start text-center py-4">
-                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML3</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-css3-alt me-2"></i>CSS</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>GSAP</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>Swiper.js</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>AOS</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML3</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-react me-2"></i>React js</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-github me-2"></i>Github</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>GSAP</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>Swiper.js</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>AOS</h1>
                         </div>
                       </div>
                       <div className="help-2 overflow-x-hidden">
                         <div className="text-wrapper2 d-flex justify-content-center gap-3 text-center py-4">
-                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-css3-alt me-2"></i>CSS</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
-                          <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>GSAP</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>Swiper.js</h1>
-                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>AOS</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-react me-2"></i>React js</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-github me-2"></i>Github</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>GSAP</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>Swiper.js</h1>
+                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>AOS</h1>
                         </div>
                       </div>
 
