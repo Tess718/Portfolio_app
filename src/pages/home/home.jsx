@@ -164,8 +164,8 @@ function home() {
                       <h3 className='text-white text-uppercase pb-4'><span className='title'>Technologies i use</span></h3>
                       </div>
                       <div className="help overflow-x-hidden">
-                        <div className="text-wrapper d-flex justify-content-center gap-3 text-center py-4">
-                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML</h1>
+                        <div className="text-wrapper d-flex justify-content-start text-center py-4">
+                          <h1 className='mb-0'><i class="fa-brands fa-html5 me-2"></i>HTML3</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-css3-alt me-2"></i>CSS</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
