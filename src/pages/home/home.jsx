@@ -51,6 +51,7 @@ function home() {
     trigger: skillsRef.current,
     start: "top top", 
     end: "bottom bottom",
+    duration: 5,
     scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
     pin: true, // Pin the container while scrolling
     direction: "horizontal", // Specify the scroll direction
@@ -139,8 +140,8 @@ function home() {
           <h3 className="text-center py-4 py-lg-0"><span className="title">Who am i?</span></h3>
           <div className="d-flex flex-column flex-lg-row gap-4">
             <div className="col-lg-6 my-auto pb-md-4 pb-0">
-              <div className="reveal-type">
                 <h4 className="pb-3">I'm dilligent and creative</h4>
+              <div className="reveal-type">
                 <p>I am a dedicated web developer with over one year of hands-on experience, having honed my skills and gained valuable insights during my internship at Sunmence. In this professional journey, I actively contributed to real-world projects, collaborating with talented teams to deliver cutting-edge solutions. My role included translating design concepts into efficient, responsive, and user-friendly websites. I thrive on problem-solving and enjoy the challenge of creating robust and scalable code.</p>
               </div>
   
