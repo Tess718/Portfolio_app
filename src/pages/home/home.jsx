@@ -171,9 +171,9 @@ function home() {
                           <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'>GSAP</h1>
-                          <h1 className='mb-0'>Swiper.js</h1>
-                          <h1 className='mb-0'>AOS</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>GSAP</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>Swiper.js</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>AOS</h1>
                         </div>
                       </div>
                       <div className="help-2 overflow-x-hidden">
@@ -184,9 +184,9 @@ function home() {
                           <h1 className='mb-0'><i class="fa-brands fa-js me-2"></i>Javascript</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-react me-2"></i>React js</h1>
                           <h1 className='mb-0'><i class="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'>GSAP</h1>
-                          <h1 className='mb-0'>Swiper.js</h1>
-                          <h1 className='mb-0'>AOS</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>GSAP</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>Swiper.js</h1>
+                          <h1 className='mb-0'><i class="bi bi-filetype-js me-2"></i>AOS</h1>
                         </div>
                       </div>
 
@@ -264,7 +264,7 @@ function home() {
                     <div className="row justify-content-between">
                       <div className="col-lg-6 my-auto">
                         <h3 className="pb-4"><span className="title">services</span></h3>
-                        <p className="reveal-type pb-5 pb-lg-0">I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
+                        <p className="reveal-type">I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
                       </div>
                       <div className="col-lg-5">
                         <div className="segrid">
