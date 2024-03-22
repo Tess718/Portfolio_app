@@ -31,7 +31,7 @@ function home() {
              trigger: text,
              scrub: true,
              start: 'top 90%', 
-             end: 'bottom 60%',
+             end: 'bottom bottom',
              toggleActions: 'play none none reverse'
            }
          }
