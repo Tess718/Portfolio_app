@@ -24,6 +24,7 @@ function home() {
           end: 'top 20%',
           scrub: true,
           markers: false,
+          immediateRender: false
         },
         opacity: 0.2,
         stagger: 0.1
@@ -157,7 +158,7 @@ function home() {
                       </div>
                       <div className="help overflow-x-hidden">
                         <div className="text-wrapper d-flex justify-content-start text-center py-4">
-                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML5</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML3</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
@@ -256,7 +257,7 @@ function home() {
                     <div className="row justify-content-between">
                       <div className="col-lg-6 my-auto">
                         <h3 className="pb-4"><span className="title">services</span></h3>
-                        <p className="reveal-type" ref={(el) => (splitTypesRef.current[1] = el)}>I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
+                        <p className="reveal-type" ref={(el) => (splitTypesRef.current[0] = el)}>I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
                       </div>
                       <div className="col-lg-5">
                         <div className="segrid">
