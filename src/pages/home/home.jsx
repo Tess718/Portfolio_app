@@ -24,7 +24,6 @@ function home() {
           end: 'top 20%',
           scrub: true,
           markers: false,
-          immediateRender: false
         },
         opacity: 0.2,
         stagger: 0.1
@@ -158,7 +157,7 @@ function home() {
                       </div>
                       <div className="help overflow-x-hidden">
                         <div className="text-wrapper d-flex justify-content-start text-center py-4">
-                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML3</h1>
+                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML5</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
