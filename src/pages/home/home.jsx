@@ -14,11 +14,11 @@ function home() {
   useEffect(() => {
     const texts = document.querySelectorAll('.reveal-type');
     texts.forEach(text => {
-       const splitText = new SplitType(text, { types: 'words' }); // Changed from 'chars' to 'words'
-       const words = splitText.words; // Access the words instead of chars
+       const splitText = new SplitType(text, { types: 'chars' }); // Changed from 'chars' to 'chars'
+       const chars = splitText.chars; // Access the chars instead of chars
    
        gsap.fromTo(
-         words,
+         chars,
          { 
            opacity: 0.05
          },
@@ -41,25 +41,25 @@ function home() {
    
    
 
-  const skillsRef = useRef(null);
+//   const skillsRef = useRef(null);
 
- useEffect(() => {
-    const skills = gsap.utils.toArray(".anime");
+//  useEffect(() => {
+//     const skills = gsap.utils.toArray(".anime");
 
-    gsap.to(skills, {
-       scrollTrigger: {
-    trigger: skillsRef.current,
-    start: "top top", 
-    end: "bottom bottom",
-    duration: 30,
-    scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-    pin: true, // Pin the container while scrolling
-    direction: "horizontal", // Specify the scroll direction
-  },
-  x:-250 * (skills.length - 1),
-  ease: "power4.out",
-});
- }, []);
+//     gsap.to(skills, {
+//        scrollTrigger: {
+//     trigger: skillsRef.current,
+//     start: "top top", 
+//     end: "bottom bottom",
+//     duration: 30,
+//     scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+//     pin: true, // Pin the container while scrolling
+//     direction: "horizontal", // Specify the scroll direction
+//   },
+//   x:-250 * (skills.length - 1),
+//   ease: "power4.out",
+// });
+//  }, []);
 
  const projectRef = useRef(null);
 
@@ -135,7 +135,7 @@ function home() {
             
 
         </div>
-                <section id="about" className="overflow-x-hidden position-relative z-3">
+                {<section id="about" className="overflow-x-hidden position-relative z-3">
       <div className="container">
           <h3 className="text-center py-4 py-lg-0"><span className="title">Who am i?</span></h3>
           <div className="d-flex flex-column flex-lg-row gap-4">
@@ -157,8 +157,8 @@ function home() {
             </div>
           </div>
       </div>
-                </section>
-                {/* <section id='tech'>
+                </section>}
+                <section id='tech'>
                     <div className="overflow-x-hidden fit">
                       <div className="container">
                       <h3 className='text-white text-uppercase pb-4'><span className='title'>Technologies i use</span></h3>
@@ -191,10 +191,10 @@ function home() {
                       </div>
 
                       </div>
-                </section> */}
+                </section>
 
 
-                <section id="skills" className="overflow-x-hidden position-relative z-3" ref={skillsRef}>
+                {/* <section id="skills" className="overflow-x-hidden position-relative z-3" ref={skillsRef}>
                   <div className="container overflow-x-hidden">
                     <div className="text-end mb-5"><h3><span className="title">MY SKILLS</span></h3></div>
                     <div className="wrapper">
@@ -256,7 +256,7 @@ function home() {
                       </div>
                     </div>
                   </div>
-                </section>
+                </section> */}
 
 
                 <section id="services" className='position-relative z-3'>
