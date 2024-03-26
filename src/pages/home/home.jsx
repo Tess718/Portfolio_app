@@ -20,8 +20,8 @@ function home() {
       gsap.from(text.words, {
         scrollTrigger: {
           trigger: word,
-          start: 'top 90%',
-          end: 'top 30%',
+          start: 'top 80%',
+          end: 'top 20%',
           scrub: true,
           markers: false,
           immediateRender: false
