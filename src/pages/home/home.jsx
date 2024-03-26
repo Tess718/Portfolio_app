@@ -11,33 +11,26 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 function home() {
+  const splitTypesRef = useRef([]);
+
   useEffect(() => {
-    const texts = document.querySelectorAll('.reveal-type');
-    texts.forEach(text => {
-       const splitText = new SplitType(text, { types: 'chars' }); // Changed from 'chars' to 'chars'
-       const chars = splitText.chars; // Access the chars instead of chars
-   
-       gsap.fromTo(
-         chars,
-         { 
-           opacity: 0.05
-         },
-         {
-           opacity: 1,
-           stagger: 0.3,
-           duration: 2,
-           ease: 'power1.out', 
-           scrollTrigger: {
-             trigger: text,
-             scrub: true,
-             start: 'top 90%', 
-             end: 'top 20%',
-             toggleActions: 'play none none reverse'
-           }
-         }
-       );
+    splitTypesRef.current.forEach((word) => {
+      const text = new SplitType(word, { types: 'words' });
+
+      gsap.from(text.words, {
+        scrollTrigger: {
+          trigger: word,
+          start: 'top 80%',
+          end: 'top 20%',
+          scrub: true,
+          markers: false,
+          immediateRender: false
+        },
+        opacity: 0.2,
+        stagger: 0.1
+      });
     });
-   }, []);
+  }, []);
    
    
 
@@ -141,7 +134,7 @@ function home() {
           <div className="d-flex flex-column flex-lg-row gap-4">
             <div className="col-lg-6 my-auto pb-md-4 pb-0">
                 <h4 className="pb-3">I'm dilligent and creative</h4>
-              <div className="reveal-type">
+              <div className="reveal-type" ref={(el) => (splitTypesRef.current[0] = el)}>
                 <p>I am a dedicated web developer with over one year of hands-on experience, having honed my skills and gained valuable insights during my internship at Sunmence. In this professional journey, I actively contributed to real-world projects, collaborating with talented teams to deliver cutting-edge solutions. My role included translating design concepts into efficient, responsive, and user-friendly websites. I thrive on problem-solving and enjoy the challenge of creating robust and scalable code.</p>
               </div>
   
@@ -264,7 +257,7 @@ function home() {
                     <div className="row justify-content-between">
                       <div className="col-lg-6 my-auto">
                         <h3 className="pb-4"><span className="title">services</span></h3>
-                        <p className="reveal-type">I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
+                        <p className="reveal-type" ref={(el) => (splitTypesRef.current[1] = el)}>I specialize in comprehensive web development services, including crafting visually appealing and responsive user interfaces, building dynamic single-page applications, implementing web designs seamlessly, ensuring responsiveness across devices, collaborating effectively on projects, optimizing code for enhanced performance, providing insights into the latest tech trends, and offering custom solutions tailored to unique project needs. Let's collaborate to bring innovation and efficiency to your digital projects and create a standout online presence.</p>
                       </div>
                       <div className="col-lg-5">
                         <div className="segrid">
