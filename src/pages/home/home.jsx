@@ -152,11 +152,11 @@ function home() {
       </div>
                 </section>}
                 <section id='tech'>
-                    <div className="overflow-x-hidden fit">
                       <div className="container">
-                      <h3 className='text-white text-uppercase pb-4'><span className='title'>Technologies i use</span></h3>
+                      <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
                       </div>
-                      <div className="help overflow-x-hidden">
+                    <div className="overflow-x-hidden fit">
+                      <div className="ribbon overflow-x-hidden">
                         <div className="text-wrapper d-flex justify-content-start text-center py-4">
                           <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML3</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
@@ -169,7 +169,7 @@ function home() {
                           <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>AOS</h1>
                         </div>
                       </div>
-                      <div className="help-2 overflow-x-hidden">
+                      <div className="ribbon-2 overflow-x-hidden">
                         <div className="text-wrapper2 d-flex justify-content-center gap-3 text-center py-4">
                           <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML</h1>
                           <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
@@ -291,8 +291,8 @@ function home() {
                                   <div className="box1 d-flex align-items-center justify-content-center w-100 flex-column p-4 py-5 rounded-3 h-100">
                                     <div className="circle rounded-circle d-flex justify-content-center align-items-center">
                                       <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
-                                        <g clip-path="url(#clip0_83_92)">
-                                          <path d="M11.4287 30L1.42871 20L11.4287 10M28.5716 30L38.5716 20L28.5716 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <g clipPath="url(#clip0_83_92)">
+                                          <path d="M11.4287 30L1.42871 20L11.4287 10M28.5716 30L38.5716 20L28.5716 10" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
                                         </g>
                                         <defs>
                                           <clipPath id="clip0_83_92">

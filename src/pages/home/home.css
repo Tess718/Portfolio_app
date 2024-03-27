@@ -119,25 +119,29 @@
     height: 5px;
     background-color: #C3965B;
 }
-.help{
-    transform: rotate(-2deg);
+.ribbon{
+    transform: rotate(-8deg);
     position: relative;
-    width: 100%;
+    width: 110%;
     z-index: 100;
+    left: -5%;
     background-color: #fff;
     margin: 4% 0;
 }
-.help-2{
-    transform: rotate(4deg);
+.ribbon-2{
+    transform: rotate(8deg);
     position: relative;
-    width: 100%;
+    width: 110%;
     z-index: 90;
+    left: -5%;
     background-color: #222222;
     margin-top: -11%;
+    height: fit-content;
 }
 #tech{
     padding-top: 6%;
     background-color: #000;
+    overflow-x: hidden !important;
 }
 .text-wrapper{
     animation: 30s linear 0s infinite normal none running move;
@@ -160,7 +164,9 @@
     letter-spacing: 1px;
 }
 .fit{
-    height: 300px;
+    height: 410px;
+    display: grid;
+    place-content: center;
 }
 @keyframes rvrmove{
     0%{
@@ -514,14 +520,48 @@
     #form{
         padding-bottom: 10%;
     }
-    .help-2{
+    .ribbon-2{
         margin-top: -25%;
     }
     .fit{
         height: 250px;
     }
+    .ribbon-2{
+        transform: rotate(12deg);
+        position: relative;
+        width: 110%;
+        z-index: 90;
+        background-color: #222222;
+        margin-top: -25%;
+        left: -5%;
+    }
+    .ribbon{
+        transform: rotate(-12deg);
+        width: 110%;
+        position: relative;
+        left: -5%;
+    }
     .text-wrapper h1{
+        font-size: 20px;
         padding: 0 2rem;
     }
-
+    
+    .text-wrapper2 h1{
+        font-size: 20px;
+        padding: 0 2rem;
+    }
+    .tec_head{
+        padding-bottom: 5% !important;
+    }
+    .text-wrapper2{
+        animation: 50s linear 0s infinite normal none running rvrmove;
+    }
+    @keyframes move{
+        0%{
+            transform: translateX(-300%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
 }
