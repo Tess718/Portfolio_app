@@ -189,7 +189,7 @@
     padding-top: 5%;
     padding-bottom: 10%;
 }
-#services h3, #skills h3, #footer h3{
+#services h3, #skills h3,#footer h3{
     color: #FFF;
     font-size: 48px;
     font-style: normal;
@@ -197,6 +197,16 @@
     line-height: normal;
     letter-spacing: 7.68px;
     text-transform: uppercase;
+}
+#tech h3{
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.68px;
+    text-transform: uppercase;
+    text-align: center;
 }
 #services p{
     color: #FFF;

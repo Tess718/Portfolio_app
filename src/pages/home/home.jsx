@@ -128,7 +128,7 @@ function home() {
             
 
         </div>
-                {<section id="about" className="overflow-x-hidden position-relative z-3">
+                <section id="about" className="overflow-x-hidden position-relative z-3">
       <div className="container">
           <h3 className="text-center py-4 py-lg-0"><span className="title">Who am i?</span></h3>
           <div className="d-flex flex-column flex-lg-row gap-4">
@@ -150,7 +150,7 @@ function home() {
             </div>
           </div>
       </div>
-                </section>}
+                </section>
                 <section id='tech'>
                       <div className="container">
                       <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
