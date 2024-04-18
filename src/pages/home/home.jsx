@@ -15,22 +15,25 @@ function home() {
 
   useEffect(() => {
     splitTypesRef.current.forEach((word) => {
-      const text = new SplitType(word, { types: 'words' });
-
-      gsap.from(text.words, {
-        scrollTrigger: {
-          trigger: word,
-          start: 'top 80%',
-          end: 'top 20%',
-          scrub: true,
-          markers: false,
-          immediateRender: false
-        },
-        opacity: 0.2,
-        stagger: 0.1
-      });
+       const text = new SplitType(word, { types: 'words' });
+   
+       gsap.fromTo(text.words, {
+         opacity: 0.3, // Assuming you want to animate from fully transparent
+       }, {
+         opacity: 1, // to fully opaque
+         scrollTrigger: {
+           trigger: word,
+           start: 'top 90%', // Adjusted start value
+           end: 'bottom top', // Adjusted end value
+           scrub: true,
+           markers: false,
+           immediateRender: false
+         },
+         stagger: 0.1
+       });
     });
-  }, []);
+   }, []);
+   
    
    
 
