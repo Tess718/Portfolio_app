@@ -151,7 +151,7 @@ function home() {
           </div>
       </div>
                 </section>
-                <section id='tech'>
+                <section id='tech' className="position-relative z-3 bg-black">
                       <div className="container">
                       <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
                       </div>

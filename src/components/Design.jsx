@@ -35,6 +35,7 @@ const Design = () => {
     //       value: "#0d47a1",
     //     },
     //   },
+    fullScreen: { enable: false },
       fpsLimit: 120,
       interactivity: {
         events: {
