@@ -13,22 +13,22 @@ function Navbar() {
               <div className="collapse navbar-collapse p-3 p-md-0 rounded-3 rounded-md-0 border-3 border-white border-md-0" id="navbarNav">
                 <ul className="navbar-nav ms-auto">
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" aria-current="page" href="#" id="nav">Home</a>
+                    <a className="nav-link text-uppercase text-white" aria-current="page" href="#hero" id="nav">Home</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" href="" id="nav">About</a>
+                    <a className="nav-link text-uppercase text-white" href="#about" id="nav">About</a>
                   </li>
                    <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" href="" id="nav">skills</a>
+                    <a className="nav-link text-uppercase text-white" href="#tech" id="nav">skills</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" href="" id="nav">Services</a>
+                    <a className="nav-link text-uppercase text-white" href="#services" id="nav">Services</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" href="" id="nav">Portfolio</a>
+                    <a className="nav-link text-uppercase text-white" href="#portfolio" id="nav">Portfolio</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link text-uppercase text-white" href="" id="nav">Contact</a>
+                    <a className="nav-link text-uppercase text-white" href="#contact" id="nav">Contact</a>
                   </li>
                   
                 </ul>
