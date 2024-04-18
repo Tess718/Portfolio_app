@@ -151,35 +151,55 @@ function home() {
           </div>
       </div>
                 </section>
-                <section id='tech' className="position-relative z-3 bg-black">
+                <section id='tech' className="">
                       <div className="container">
                       <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
                       </div>
                     <div className="overflow-x-hidden fit">
                       <div className="ribbon overflow-x-hidden">
-                        <div className="text-wrapper d-flex justify-content-start text-center py-4">
-                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML3</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-react me-2"></i>React js</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>GSAP</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>Swiper.js</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>AOS</h1>
+                        <div className="text-wrapper d-flex justify-content-start text-center align-items-center py-4 gap-3">
+                        <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>HTML5</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>CSS3</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>Bootstrap 5</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>Javascript</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>React js</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>Github</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>GSAP</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>Swiper.js</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
+                          <h1 className='mb-0'>AOS</h1>
+                          <i className="fa-regular fa-circle-dot fs-4"></i>
                         </div>
                       </div>
                       <div className="ribbon-2 overflow-x-hidden">
-                        <div className="text-wrapper2 d-flex justify-content-center gap-3 text-center py-4">
-                          <h1 className='mb-0'><i className="fa-brands fa-html5 me-2"></i>HTML</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-css3-alt me-2"></i>CSS</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-bootstrap me-2"></i>Bootstrap 5</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-js me-2"></i>Javascript</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-react me-2"></i>React js</h1>
-                          <h1 className='mb-0'><i className="fa-brands fa-github me-2"></i>Github</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>GSAP</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>Swiper.js</h1>
-                          <h1 className='mb-0'><i className="bi bi-filetype-js me-2"></i>AOS</h1>
+                        <div className="text-wrapper2 d-flex justify-content-center gap-3 align-items-center text-center py-4">
+                        <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>HTML5</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>CSS3</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>Bootstrap 5</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>Javascript</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>React js</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>Github</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>GSAP</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>Swiper.js</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
+                          <h1 className='mb-0'>AOS</h1>
+                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
                         </div>
                       </div>
 
@@ -386,9 +406,9 @@ function home() {
                           </div>
                           <div className="col-lg-5 mt-3 mt-lg-0 project">
                             <div className="primary h-100">
-                              <img src="project (1).png"  alt="" className="w-100 h-100 rounded-3 object-fit-contain" style={{border: '0.928px solid #C3965B'}} />
+                              <img src="project (8).png"  alt="" className="w-100 h-100 rounded-3 object-fit-contain" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://devtsocialbook.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
+                                <a href="https://dtsopa.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
