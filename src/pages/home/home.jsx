@@ -81,7 +81,7 @@ function home() {
             <div className="navcover">
                 <Navbar/>
 
-                <hr style={{opacity: 0.4, color: '#fff'}} />
+                <hr style={{opacity: 0.4, color: '#fff'}} className='m-0 p-0' />
                 
             </div>
 
