@@ -234,9 +234,7 @@
     display: grid;
     place-items: center;
 }
-.pin-spacer{
-    background-color: #000;
-}
+
 .circle{
     width: 70px;
     height: 70px;

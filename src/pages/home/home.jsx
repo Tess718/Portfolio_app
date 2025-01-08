@@ -18,13 +18,13 @@ function home() {
        const text = new SplitType(word, { types: 'words' });
    
        gsap.fromTo(text.words, {
-         opacity: 0.3, // Assuming you want to animate from fully transparent
+         opacity: 0.3, 
        }, {
-         opacity: 1, // to fully opaque
+         opacity: 1, 
          scrollTrigger: {
            trigger: word,
-           start: 'top 90%', // Adjusted start value
-           end: 'bottom top', // Adjusted end value
+           start: 'top 90%', 
+           end: 'bottom bottom', 
            scrub: true,
            markers: false,
            immediateRender: false
@@ -37,25 +37,23 @@ function home() {
    
    
 
-//   const skillsRef = useRef(null);
+  // const skillsRef = useRef(null);
 
-//  useEffect(() => {
-//     const skills = gsap.utils.toArray(".anime");
+ useEffect(() => {
+    const skills = gsap.utils.toArray(".anime");
 
-//     gsap.to(skills, {
-//        scrollTrigger: {
-//     trigger: skillsRef.current,
-//     start: "top top", 
-//     end: "bottom bottom",
-//     duration: 30,
-//     scrub: 3, // Smooth scrubbing, takes 1 second to "catch up" to the scrollbar
-//     pin: true, // Pin the container while scrolling
-//     direction: "horizontal", // Specify the scroll direction
-//   },
-//   x:-250 * (skills.length - 1),
-//   ease: "power4.out",
-// });
-//  }, []);
+    gsap.to(skills, {
+       scrollTrigger: {
+    trigger: "#skills",
+    end: () => "+=" + document.querySelector("#skills").offsetWidth,
+    scrub: 1,
+    snap: 1 / (skills.length - 1),
+    pin: true,  
+  },
+  x: -200 * (skills.length - 1),
+  ease: "none",
+});
+ }, []);
 
  const projectRef = useRef(null);
 
@@ -154,7 +152,7 @@ function home() {
           </div>
       </div>
                 </section>
-                <section id='tech' className="">
+                {/* <section id='tech' className="">
                       <div className="container">
                       <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
                       </div>
@@ -207,72 +205,72 @@ function home() {
                       </div>
 
                       </div>
-                </section>
-
-
-                {/* <section id="skills" className="overflow-x-hidden position-relative z-3" ref={skillsRef}>
-                  <div className="container overflow-x-hidden">
-                    <div className="text-end mb-5"><h3><span className="title">MY SKILLS</span></h3></div>
-                    <div className="wrapper">
-                      <div className="d-flex skparent gap-4">
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-html5 fs-1"></i>
-                              <p className="fs-3 mt-3">HTML5</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-css3 fs-1"></i>
-                              <p className="fs-3 mt-3">CSS3</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-bootstrap fs-1"></i>
-                              <p className="fs-3 mt-3">Bootstrap 5</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-js fs-1"></i>
-                              <p className="fs-3 mt-3">JavaScript</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-js fs-1"></i>
-                              <p className="fs-3 mt-3">Git Version Control</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-lg-3 col-8 gy-3">
-                          <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
-                            <div className="text-center position-relative z-2">
-                              <i className="fa-brands fa-react fs-1"></i>
-                              <p className="fs-3 mt-3">React Js</p>
-                  
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </section> */}
+
+
+<section id="skills" className="overflow-x-hidden">
+    <div className="container overflow-x-hidden">
+      <div className="text-end mb-5"><h3><span className="title">MY SKILLS</span></h3></div>
+      <div className="wrapper">
+        <div className="d-flex skparent gap-4">
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-html5 fs-1"></i>
+                <p className="fs-3 mt-3">HTML5</p>
+    
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-css3 fs-1"></i>
+                <p className="fs-3 mt-3">CSS3</p>
+    
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-bootstrap fs-1"></i>
+                <p className="fs-3 mt-3">Bootstrap 5</p>
+    
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-js fs-1"></i>
+                <p className="fs-3 mt-3">JavaScript</p>
+    
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-react fs-1"></i>
+                <p className="fs-3 mt-3">React</p>
+    
+              </div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-8 gy-3">
+            <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
+              <div className="text-center position-relative z-2">
+                <i className="fa-brands fa-php fs-1"></i>
+                <p className="fs-3 mt-3">PHP</p>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
 
 
                 <section id="services" className='position-relative z-3'>
@@ -427,7 +425,7 @@ function home() {
         <div className="row justify-content-between">
           <div className="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
             <div className="formtxt">
-              <h3 className="protxt text-uppercase">Got a project? <br/>Let's talk.</h3>
+              <h3 className="protxt text-uppercase">Got a project? <br/>Let's talk</h3>
     
               <p className="mt-4">Ready to make your project a success? Whether it's a website, strategy refinement, or a tech challenge – let's collaborate. Ready to start?</p>
     
@@ -438,10 +436,10 @@ function home() {
     
             <form action="https://api.web3forms.com/submit" method="POST" className="d-flex flex-column mt-5">
               <input type="hidden" name="access_key" value="82562d9e-44d6-4b92-94bc-911ae587ab49" />
-              <label htmlFor="name">What's your name?</label>
+              <label htmlFor="name">What your name?</label>
             <input type="text" name="name" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
     
-              <label htmlFor="email">What's your Email Address?</label>
+              <label htmlFor="email">What is your Email Address?</label>
             <input type="email" name="email" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
     
               <label htmlFor="project">Tell me about your project</label>
