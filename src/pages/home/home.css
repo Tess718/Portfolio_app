@@ -225,6 +225,9 @@
     padding-top: 7%;
     padding-bottom: 5%;
 }
+#skills::-webkit-scrollbar{
+    display: none;
+}
 .skillcon{
     cursor: pointer;
     color: #fff;
