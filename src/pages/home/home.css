@@ -228,14 +228,41 @@
 #skills::-webkit-scrollbar{
     display: none;
 }
+.skparent{
+    position: relative;
+    height: 400px;
+    gap: 10%;
+    width: 100%;
+    min-width: calc(300px * 6);
+    mask-image: linear-gradient(to right, transparent, #000 5% 90%, transparent);
+}
+.carol{
+    position: absolute;
+    left: 100%;
+    animation: autoRun 10s linear infinite;
+    animation-delay: calc(10s / 6 * (var(--position) - 1));
+    width: 300px;
+
+}
 .skillcon{
     cursor: pointer;
     color: #fff;
-    position: relative;
     overflow: hidden;
-    height: 400px;
     display: grid;
     place-items: center;
+    height: 400px;
+}
+
+@keyframes autoRun {
+    from{
+        left: 100%;
+    }to{
+        left: calc(300px * -1);
+    }
+}
+
+.skparent:hover .carol{
+    animation-play-state: paused !important;
 }
 
 .circle{

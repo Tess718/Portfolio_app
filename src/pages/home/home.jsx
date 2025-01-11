@@ -37,23 +37,6 @@ function home() {
    
    
 
-  // const skillsRef = useRef(null);
-
- useEffect(() => {
-    const skills = gsap.utils.toArray(".anime");
-
-    gsap.to(skills, {
-       scrollTrigger: {
-    trigger: "#skills",
-    end: () => "+=" + document.querySelector("#skills").offsetWidth,
-    scrub: 1,
-    snap: 1 / (skills.length - 1),
-    pin: true,  
-  },
-  x: -200 * (skills.length - 1),
-  ease: "none",
-});
- }, []);
 
  const projectRef = useRef(null);
 
@@ -152,68 +135,15 @@ function home() {
           </div>
       </div>
                 </section>
-                {/* <section id='tech' className="">
-                      <div className="container">
-                      <h3 className='text-white text-uppercase pb-4 tec_head'><span className='title'>Technologies i use</span></h3>
-                      </div>
-                    <div className="overflow-x-hidden fit">
-                      <div className="ribbon overflow-x-hidden">
-                        <div className="text-wrapper d-flex justify-content-start text-center align-items-center py-4 gap-3">
-                        <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>HTML5</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>CSS3</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>Bootstrap 5</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>Javascript</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>React js</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>Github</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>GSAP</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>Swiper.js</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                          <h1 className='mb-0'>AOS</h1>
-                          <i className="fa-regular fa-circle-dot fs-4"></i>
-                        </div>
-                      </div>
-                      <div className="ribbon-2 overflow-x-hidden">
-                        <div className="text-wrapper2 d-flex justify-content-center gap-3 align-items-center text-center py-4">
-                        <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>HTML5</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>CSS3</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>Bootstrap 5</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>Javascript</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>React js</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>Github</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>GSAP</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>Swiper.js</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                          <h1 className='mb-0'>AOS</h1>
-                          <i className="fa-regular fa-circle-dot fs-4 text-white"></i>
-                        </div>
-                      </div>
 
-                      </div>
-                </section> */}
 
 
 <section id="skills" className="overflow-x-hidden">
     <div className="container overflow-x-hidden">
       <div className="text-end mb-5"><h3><span className="title">MY SKILLS</span></h3></div>
       <div className="wrapper">
-        <div className="d-flex skparent gap-4">
-          <div className="col-lg-3 col-8 gy-3">
+        <div className="d-flex skparent">
+          <div className="carol" style={{ "--position": 1 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-html5 fs-1"></i>
@@ -222,7 +152,7 @@ function home() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-8 gy-3">
+          <div className="carol" style={{ "--position": 2 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-css3 fs-1"></i>
@@ -231,7 +161,7 @@ function home() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-8 gy-3">
+          <div className="carol" style={{ "--position": 3 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-bootstrap fs-1"></i>
@@ -240,7 +170,7 @@ function home() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-8 gy-3">
+          <div className="carol" style={{ "--position": 4 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-js fs-1"></i>
@@ -249,7 +179,7 @@ function home() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-8 gy-3">
+          <div className="carol" style={{ "--position": 5 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-react fs-1"></i>
@@ -258,7 +188,7 @@ function home() {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-8 gy-3">
+          <div className="carol" style={{ "--position": 6 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
                 <i className="fa-brands fa-php fs-1"></i>
@@ -270,7 +200,11 @@ function home() {
         </div>
       </div>
     </div>
-  </section> 
+  </section>
+
+
+
+
 
 
                 <section id="services" className='position-relative z-3'>
