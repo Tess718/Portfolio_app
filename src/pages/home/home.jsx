@@ -6,6 +6,7 @@ import Navbar from '../../components/Navbar'
 import './home.css'
 import Design from '../../components/Design'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Preloader from '../../components/Preloader';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -65,6 +66,8 @@ function home() {
                 <hr style={{opacity: 0.4, color: '#fff'}} className='m-0 p-0' />
                 
             </div>
+            
+            <Preloader/>
 
 
                 <section id='hero'>
@@ -73,14 +76,15 @@ function home() {
                         <p className="text-uppercase"><span className="position-relative z-2">Web developer</span></p>
             
                         <div className="d-flex gap-3 mt-5">
+                          <a href="#contact">
                             <button className="btn btn-light rounded-3 hrbtn position-relative z-2">Hire Me</button>
+                          </a>
                             <a href="#portfolio">
                                 <button className="btn btn-outline-light rounded-3 hrbtn border border-3 position-relative z-2">Portfolio</button>
                             </a>
                         </div>
             
                         <div className="d-flex gap-3 my-5 position-relative z-2">
-                            <i className="bi bi-facebook fs-3 text-white social"></i>
                             <i className="bi bi-linkedin fs-3 text-white social"></i>
                             <i className="bi bi-instagram fs-3 text-white social"></i>
                             <i className="bi bi-twitter-x fs-3 text-white social"></i>
@@ -89,7 +93,7 @@ function home() {
                         <div className="lay rounded-3 p-4 position-relative z-3">
                             <div className="row text-center">
                                 <div className="col-lg-3 col-6">
-                                    <h4>1+</h4>
+                                    <h4>2+</h4>
                                     <p>Years of Experience</p>
                                 </div>
                                 <div className="col-lg-3 col-6">
@@ -97,12 +101,12 @@ function home() {
                                     <p>Projects</p>
                                 </div>
                                 <div className="col-lg-3 col-6">
-                                    <h4>10+</h4>
-                                    <p>Satisfied clients</p>
+                                  <h4>8+</h4>
+                                  <p>Collaborative Projects</p>
                                 </div>
                                 <div className="col-lg-3 col-6">
-                                    <h4>5+</h4>
-                                    <p>Technologies Explored</p>
+                                  <h4>90%</h4>
+                                  <p>Task Completion Rate</p>
                                 </div>
                             </div>
                         </div>
@@ -123,7 +127,7 @@ function home() {
               </div>
   
               <div className="d-flex gap-3">
-                <a href="./Liasu Teslim CV.pdf" download="Liasu Teslim CV.pdf"><button className="btn btn-light rounded-3 hrbtn">Download CV</button></a>
+                <a href="./Liasu-Teslim-Omobobola-Resume.pdf" download=""><button className="btn btn-light rounded-3 hrbtn">Download Resume</button></a>
                 <a href="#portfolio">
                   <button className="btn btn-outline-light rounded-3 hrbtn border border-3">Portfolio</button>
                 </a>
@@ -321,9 +325,9 @@ function home() {
                           </div>
                           <div className="col-lg-12 mt-3 project" style={{height:' 190px'}}>
                             <div className="primary h-100">
-                              <img src="project (6).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
+                              <img src="project (10).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://tsfinance.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                                <a href="https://eportglobals.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
@@ -333,9 +337,9 @@ function home() {
                         <div className="row">
                           <div className="col-lg-7 project">
                             <div className="primary">
-                              <img src="project (4).png"  alt="" className="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
+                              <img src="project (9).png"  alt="" className="w-100 h-100 rounded-3" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://tstravels.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
+                                <a href="https://neebo.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
@@ -343,7 +347,7 @@ function home() {
                             <div className="primary h-100">
                               <img src="project (8).png"  alt="" className="w-100 h-100 rounded-3 object-fit-contain" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://dtsopa.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
+                                <a href="https://animately.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light rounded-3 border-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
