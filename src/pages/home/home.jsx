@@ -24,7 +24,7 @@ function home() {
          scrollTrigger: {
            trigger: word,
            start: 'top 90%', 
-           end: 'bottom bottom', 
+           end: 'bottom 50%', 
            scrub: true,
            markers: false,
            immediateRender: false
