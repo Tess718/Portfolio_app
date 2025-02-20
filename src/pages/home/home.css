@@ -143,26 +143,6 @@
     background-color: #000;
     overflow-x: hidden !important;
 }
-.text-wrapper{
-    animation: 30s linear 0s infinite normal none running move;
-}
-.text-wrapper h1{
-    font-size: 40px;
-    color: #000;
-    white-space: nowrap;
-    padding: 0 3rem;
-    letter-spacing: 1px;
-}
-.text-wrapper2{
-    animation: 30s linear 0s infinite normal none running rvrmove;
-}
-.text-wrapper2 h1{
-    font-size: 40px;
-    color: #fff;
-    white-space: nowrap;
-    padding: 0 6rem;
-    letter-spacing: 1px;
-}
 .fit{
     height: 410px;
     display: grid;

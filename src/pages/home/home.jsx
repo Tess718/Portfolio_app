@@ -7,6 +7,7 @@ import './home.css'
 import Design from '../../components/Design'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Preloader from '../../components/Preloader';
+import { Contactform } from '../../components/Contactform';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -105,7 +106,7 @@ function home() {
                                   <p>Collaborative Projects</p>
                                 </div>
                                 <div className="col-lg-3 col-6">
-                                  <h4>90%</h4>
+                                  <h4>100%</h4>
                                   <p>Task Completion Rate</p>
                                 </div>
                             </div>
@@ -123,7 +124,7 @@ function home() {
             <div className="col-lg-6 my-auto pb-md-4 pb-0">
                 <h4 className="pb-3">I'm dilligent and creative</h4>
               <div className="reveal-type" ref={(el) => (splitTypesRef.current[0] = el)}>
-                <p>I am a dedicated web developer with over one year of hands-on experience, having honed my skills and gained valuable insights during my internship at Sunmence. In this professional journey, I actively contributed to real-world projects, collaborating with talented teams to deliver cutting-edge solutions. My role included translating design concepts into efficient, responsive, and user-friendly websites. I thrive on problem-solving and enjoy the challenge of creating robust and scalable code.</p>
+                <p>I am a dedicated web developer with over two years of hands-on experience, having honed my skills and gained valuable insights during my employment at Sunmence solutions. In this professional journey, I actively contributed to real-world projects, collaborating with talented teams to deliver cutting-edge solutions. My role included translating design concepts into efficient, responsive, and user-friendly websites. I thrive on problem-solving and enjoy the challenge of creating robust and scalable code.</p>
               </div>
   
               <div className="d-flex gap-3">
@@ -195,8 +196,8 @@ function home() {
           <div className="carol" style={{ "--position": 6 }}>
             <div className="skillcon w-100 border border-3 border-white rounded-3 p-5 anime">
               <div className="text-center position-relative z-2">
-                <i className="fa-brands fa-php fs-1"></i>
-                <p className="fs-3 mt-3">PHP</p>
+                <img src="tailwind-css.svg" width={'50px'} alt="" />
+                <p className="fs-3 mt-3">Tailwind CSS</p>
     
               </div>
             </div>
@@ -205,6 +206,7 @@ function home() {
       </div>
     </div>
   </section>
+  
 
 
 
@@ -323,11 +325,11 @@ function home() {
                               </div>
                             </div>
                           </div>
-                          <div className="col-lg-12 mt-3 project" style={{height:' 190px'}}>
+                          <div className="col-lg-12 mt-3 project">
                             <div className="primary h-100">
-                              <img src="project (10).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
+                              <img src="project (1).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://eportglobals.com/" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                                <a href="https://devtsocialbook.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
@@ -358,82 +360,71 @@ function home() {
                 </section>
 
                 <section id="contact" className='position-relative z-3'>
-    <div id="form">
-      <div className="container">
-        <div className="row justify-content-between">
-          <div className="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
-            <div className="formtxt">
-              <h3 className="protxt text-uppercase">Got a project? <br/>Let's talk</h3>
-    
-              <p className="mt-4">Ready to make your project a success? Whether it's a website, strategy refinement, or a tech challenge – let's collaborate. Ready to start?</p>
-    
-            </div>
-          </div>
-          <div className="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
-            <h3 className="text-uppercase">Estimate your project? <br/> Let me know here.</h3>
-    
-            <form action="https://api.web3forms.com/submit" method="POST" className="d-flex flex-column mt-5">
-              <input type="hidden" name="access_key" value="82562d9e-44d6-4b92-94bc-911ae587ab49" />
-              <label htmlFor="name">What your name?</label>
-            <input type="text" name="name" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
-    
-              <label htmlFor="email">What is your Email Address?</label>
-            <input type="email" name="email" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1" style={{outline: 'none' }}/>
-    
-              <label htmlFor="project">Tell me about your project</label>
-              <textarea name="project" id="project" className="bg-transparent border-top-0 border-start-0 border-end-0 border-bottom-3 border-white mb-3 text-white p-1"></textarea>
-    
-              <button className="btn btn-outline-light rounded-3 subtn p-3 mt-3 border-3 hrtxt">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="footer">
-      <div className="container">
-        <h3 className="text-center"><span className="title text-center">Get in touch</span></h3>
-    
-        <div className="row mt-5">
-          <div className="col-lg-4">
-            <div className="card1 px-lg-5 px-3 py-3">
-              <p><span><i className="bi bi-envelope-fill text-white fs-4 me-2"></i></span> teslimliasu49@gmail.com</p>
-            </div>
-          </div>
-          <div className="col-lg-4 my-3 my-lg-0">
-            <div className="card1 px-lg-5 px-3 py-3">
-              <p><span><i className="bi bi-telephone-fill text-white fs-4 me-2"></i></span>+2347033275477</p>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="card1 px-lg-5 px-3 py-3">
-              <p><span><i className="bi bi-twitter-x text-white fs-4 me-2"></i></span> Tesssss718</p>
-            </div>
-          </div>
-        </div>
-        <div className="row mt-4 justify-content-center">
-          <div className="col-lg-4">
-            <div className="card1 px-lg-5 px-3 py-3">
-              <p><span><i className="bi bi-github text-white fs-4 me-2"></i></span> Tess718</p>
-            </div>
-          </div>
-          <div className="col-lg-4 mt-3 mt-lg-0">
-            <div className="card1 px-lg-5 px-3 py-3">
-              <p><span><i className="bi bi-linkedin text-white fs-4 me-2"></i></span> teslimliasu</p>
-            </div>
-          </div>
-        </div>
-    
-      </div>
-      <hr style={{border: '1px solid #C3965B; opacity: 100%'}} className="mt-5" />
-      <div className="d-flex">
-        <div className="container">
-          <p className="copyright py-3 text-center">© Copyright 2023 - Built by Dev Tess ❤</p>
-    
-        </div>
-      </div>
-    </div>
+                <div id="form">
+                  <div className="container">
+                    <div className="row justify-content-between">
+                      <div className="col-lg-4 my-auto" data-aos="fade-right" data-aos-duration="1000">
+                        <div className="formtxt">
+                          <h3 className="protxt text-uppercase">Got a project? <br/>Let's talk</h3>
+                
+                          <p className="mt-4">Ready to make your project a success? Whether it's a website, strategy refinement, or a tech challenge – let's collaborate. Ready to start?</p>
+                
+                        </div>
+                      </div>
+                      <div className="col-lg-6 mt-3 mt-md-0" data-aos="fade-left" data-aos-duration="1000">
+                        <h3 className="text-uppercase">Estimate your project? <br/> Let me know here.</h3>
+                          <Contactform/>
+                
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              <div id="footer">
+                <div className="container">
+                  <h3 className="text-center"><span className="title text-center">Get in touch</span></h3>
+              
+                  <div className="row mt-5">
+                    <div className="col-lg-4">
+                      <div className="card1 px-lg-5 px-3 py-3">
+                        <p><span><i className="bi bi-envelope-fill text-white fs-4 me-2"></i></span> teslimliasu49@gmail.com</p>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 my-3 my-lg-0">
+                      <div className="card1 px-lg-5 px-3 py-3">
+                        <p><span><i className="bi bi-telephone-fill text-white fs-4 me-2"></i></span>+2347033275477</p>
+                      </div>
+                    </div>
+                    <div className="col-lg-4">
+                      <div className="card1 px-lg-5 px-3 py-3">
+                        <p><span><i className="bi bi-twitter-x text-white fs-4 me-2"></i></span> Tesssss718</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row mt-4 justify-content-center">
+                    <div className="col-lg-4">
+                      <div className="card1 px-lg-5 px-3 py-3">
+                        <p><span><i className="bi bi-github text-white fs-4 me-2"></i></span> Tess718</p>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 mt-3 mt-lg-0">
+                      <div className="card1 px-lg-5 px-3 py-3">
+                        <p><span><i className="bi bi-linkedin text-white fs-4 me-2"></i></span> teslimliasu</p>
+                      </div>
+                    </div>
+                  </div>
+              
+                </div>
+                <hr style={{border: '1px solid #C3965B; opacity: 100%'}} className="mt-5" />
+                <div className="d-flex">
+                  <div className="container">
+                    <p className="copyright py-3 text-center">© Copyright 2023 - Built by Dev Tess ❤</p>
+              
+                  </div>
+                </div>
+              </div>
   
-  </section>
+          </section>
     </div>
   )
 }
