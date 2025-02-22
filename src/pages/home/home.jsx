@@ -55,7 +55,7 @@ function home() {
       scrub: true
     });
 
-    return () => tl.kill(); // Cleanup function to kill the timeline
+    return () => tl.kill();
  }, []);
 
   return (
@@ -418,7 +418,7 @@ function home() {
                 <hr style={{border: '1px solid #C3965B; opacity: 100%'}} className="mt-5" />
                 <div className="d-flex">
                   <div className="container">
-                    <p className="copyright py-3 text-center">© Copyright 2023 - Built by Dev Tess ❤</p>
+                    <p className="copyright py-3 text-center">© Copyright 2025 - Built by Dev Tess ❤</p>
               
                   </div>
                 </div>
