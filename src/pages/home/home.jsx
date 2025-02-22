@@ -86,10 +86,10 @@ function home() {
                         </div>
             
                         <div className="d-flex gap-3 my-5 position-relative z-2">
-                            <i className="bi bi-linkedin fs-3 text-white social"></i>
-                            <i className="bi bi-instagram fs-3 text-white social"></i>
-                            <i className="bi bi-twitter-x fs-3 text-white social"></i>
-                            <i className="bi bi-github fs-3 text-white social"></i>
+                            {/* <i className="bi bi-linkedin fs-3 text-white social"></i> */}
+                            <a href="https://www.instagram.com/teslimomobobola/" target="_blank" rel="noopener noreferrer" ><i className="bi bi-instagram fs-3 text-white social"></i></a>
+                            <a href="https://x.com/Devteslim" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter-x fs-3 text-white social"></i></a>
+                            <a href="https://github.com/Tess718" target="_blank" rel="noopener noreferrer"><i className="bi bi-github fs-3 text-white social"></i></a>
                         </div>
                         <div className="lay rounded-3 p-4 position-relative z-3">
                             <div className="row text-center">
