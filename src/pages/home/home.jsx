@@ -330,9 +330,9 @@ function home() {
                           </div>
                           <div className="col-lg-12 mt-3 project">
                             <div className="primary h-100">
-                              <img src="project (1).png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
+                              <img src="project.png"  alt="" className="w-100 h-100 rounded-3 object-fit-cover" style={{border: '0.928px solid #C3965B'}} />
                               <div className="view rounded-3">
-                                <a href="https://devtsocialbook.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
+                                <a href="https://tswatchables.netlify.app" target="_blank" rel="noopener noreferrer"><button className="btn btn-outline-light border-3 rounded-3">View Project</button></a>
                               </div>
                             </div>
                           </div>
