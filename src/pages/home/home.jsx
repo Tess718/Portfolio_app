@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
 import SplitType from 'split-type';
@@ -57,6 +57,9 @@ function home() {
 
     return () => tl.kill();
  }, []);
+
+
+ const year = new Date().getFullYear();
 
   return (
     <div className='overflow-x-hidden'>
@@ -418,7 +421,7 @@ function home() {
                 <hr style={{border: '1px solid #C3965B; opacity: 100%'}} className="mt-5" />
                 <div className="d-flex">
                   <div className="container">
-                    <p className="copyright py-3 text-center">© Copyright 2025 - Built by Dev Tess ❤</p>
+                    <p className="copyright py-3 text-center">© Copyright {year} - Built by Dev Tess ❤</p>
               
                   </div>
                 </div>
